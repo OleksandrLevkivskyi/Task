@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="header__head">
+            <div class="header__logo">
+                <a class="header__logo-link" href="#">
+                    <img class="header__logo-img" src="/images/logo.png" alt="logo">
+                </a>
+            </div>
+            <div class="header__lang"><a class="header__lang-link" href="#">EN</a>
+            </div>
+            
+        </div>
+        <div class="header__nav">
+            <div class="nav">
+                <div class="nav__right">
+                    <div class="nav__menu-btn active" >                       
+                        <div class="nav__menu-btn--hide  "></div>
+                    </div> 
+                    <div class="nav__menu-btn" >                        
+                        <div class="nav__menu-btn--show"></div>
+                    </div>
+                    <ul class="nav__menu">
+                        <li class="nav__menu-item" >
+                            <a id="product" href="#">ПРОДУКЦІЯ</a>
+                        </li>
+                        <li class="nav__menu-item">
+                            <a id="buy" href="#">ДЕ КУПИТИ</a>
+                        </li>
+                        <li class="nav__menu-item">
+                            <a id="company" href="#">ПРО КОМПАНІЮ</a>
+                        </li>
+                        <li class="nav__menu-item">
+                            <a href="#">ФРАНЧАЙЗИНГ</a>
+                        </li>
+                        <li class="nav__menu-item">
+                            <a href="#">НОВИНИ</a>
+                        </li>
+                        <li class="nav__menu-item right">
+                            <a href="#">Представники</a>
+                        </li>
+                        <li class="nav__menu-item">
+                            <a href="#">Консультація</a>
+                        </li>
+                    </ul>
+                    <div class="nav__search-btn ">
+                        <a class="nav__search-btn-i" href="#"></a>
+                    </div> 
+                    
+                </div>
+            </div>
+            <div class="nav__side-menu">
+                <div class="nav__side-menu-bar">
+                    <div class="nav__side-menu-bar-search" >
+                        <form class="search-form__form" action="#">
+                            <button class="search-form__btn"></button>
+                            <input class="search-form__input" placeholder="Пошук" type="text">
+                        </form>
+                    </div>
+                </div>
+                <div class="nav__side-menu-list">
+                    <div class=".nav__side-menu-item" >
+                        <a class="nav__side-menu-link" href="#" id="windows">
+                            <div class="nav__side-menu-ico">
+                                <img src="/images/window.svg" alt="">
+                            </div>
+                            <span>Вікна</span>
+                        </a>
+                        <div class="nav__side-menu-1" id="windows-menu">
+                            <div class="nav__side-menu-1-bar" >
+                                <a class="nav__side-menu-1-bar-link" href="#">
+                                   Вікна
+                                </a>
+                            </div>
+                            <div class="nav__side-menu-1-list">
+                                <div class="nav__side-menu-1-item">
+                                    <a class="nav__side-menu-1-link" href="#">
+                                        <div class="nav__side-menu-1-ico">
+                                            <img src="./images/menu-big-ico-3.png" alt="">
+                                        </div>
+                                        <span> Меню 2 lvl</span>
+                                    </a>
+                                </div>
+                                <div class="nav__side-menu-1-item">
+                                    <a class="nav__side-menu-1-link" href="#">
+                                        <div class="nav__side-menu-1-ico">
+                                            <img src="./images/menu-big-ico-3.png" alt="">
+                                        </div>
+                                        <span> Меню 2 lvl</span>
+                                    </a>
+                                </div>
+                                <div class="nav__side-menu-1-item">
+                                    <a class="nav__side-menu-1-link" href="#">
+                                        <div class="nav__side-menu-1-ico">
+                                            <img src="./images/menu-big-ico-3.png" alt="">
+                                        </div>
+                                        <span> Меню 2 lvl</span>
+                                    </a>
+                                </div>
+                                <div class="nav__side-menu-1-item">
+                                    <a class="nav__side-menu-1-link" href="#">
+                                        <div class="nav__side-menu-1-ico">
+                                            <img src="./images/menu-big-ico-3.png" alt="">
+                                        </div>
+                                        <span> Меню 2 lvl</span>
+                                    </a>
+                                </div>
+                                <div class="nav__side-menu-1-item">
+                                    <a class="nav__side-menu-1-link" href="#">
+                                        <div class="nav__side-menu-1-ico">
+                                            <img src="./images/menu-big-ico-3.png" alt="">
+                                        </div>
+                                        <span> Меню 2 lvl</span>
+                                    </a>
+                                </div>
+                                <div class="nav__side-menu-1-item">
+                                    <a class="nav__side-menu-1-link" href="#">
+                                        <div class="nav__side-menu-1-ico">
+                                            <img src="./images/menu-big-ico-3.png" alt="">
+                                        </div>
+                                        <span> Меню 2 lvl</span>
+                                    </a>
+                                </div>
+                                <div class="nav__side-menu-1-item">
+                                    <a class="nav__side-menu-1-link" href="#">
+                                        <div class="nav__side-menu-1-ico">
+                                            <img src="./images/menu-big-ico-3.png" alt="">
+                                        </div>
+                                        <span> Меню 2 lvl</span>
+                                    </a>
+                                </div>
+                                <div class="nav__side-menu-1-item">
+                                    <a class="nav__side-menu-1-link" href="#">
+                                        <div class="nav__side-menu-1-ico">
+                                            <img src="./images/menu-big-ico-3.png" alt="">
+                                        </div>
+                                        <span> Меню 2 lvl</span>
+                                    </a>
+                                </div>
+                                <div class="nav__side-menu-1-item">
+                                    <a class="nav__side-menu-1-link" href="#">
+                                        <div class="nav__side-menu-1-ico">
+                                            <img src="./images/menu-big-ico-3.png" alt="">
+                                        </div>
+                                        <span> Меню 2 lvl</span>
+                                    </a>
+                                </div>
+                                <div class="nav__side-menu-1-item">
+                                    <a class="nav__side-menu-1-link" href="#">
+                                        <div class="nav__side-menu-1-ico">
+                                            <img src="./images/menu-big-ico-3.png" alt="">
+                                        </div>
+                                        <span> Меню 2 lvl</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=".nav__side-menu-item">
+                        <a class="nav__side-menu-link" href="#" id="doors">
+                            <div class="nav__side-menu-ico">
+                                <img src="/images/1.svg" alt="">
+                            </div>
+                            <span>Двері</span>
+                        </a>
+                        <div class="nav__side-menu-1" id="doors-menu">
+                            <div class="nav__side-menu-1-bar" >
+                                <a class="nav__side-menu-1-bar-link" href="#">
+                                   Двері
+                                </a>
+                            </div>
+                            <div class="nav__side-menu-1-list">
+                                <div class="nav__side-menu-1-item">
+                                    <a class="nav__side-menu-1-link" href="#">
+                                        <div class="nav__side-menu-1-ico">
+                                            <img src="./images/menu-big-ico-3.png" alt="">
+                                        </div>
+                                        <span> -Ухильно-розсувні psk</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav__side-menu-item">
+                        <a class="nav__side-menu-link" href="#">
+                            <div class="nav__side-menu-ico">
+                                <img src="/images/2.svg" alt="">
+                            </div>
+                            <span>Фасад/зимовий сад</span>
+                        </a>
+                    </div>
+                    <div class="nav__side-menu-item">
+                        <a class="nav__side-menu-link" href="#">
+                            <div class="nav__side-menu-ico">
+                                <img src="/images/3.svg" alt="">
+                            </div>
+                            <span>Терасні системи</span>
+                        </a>
+                    </div>
+                    <div class="nav__side-menu-item">
+                        <a class="nav__side-menu-link" href="#">
+                            <div class="nav__side-menu-ico">
+                                <img src="/images/gate.svg" alt="">
+                            </div>
+                            <span>Ворота/ролети</span>
+                        </a>
+                    </div>
+                    <div class="nav__side-menu-item">
+                        <a class="nav__side-menu-link" href="#">
+                            <div class="nav__side-menu-ico">
+                                <img src="/images/4.svg" alt="">
+                            </div>
+                            <span>Smarthome</span>
+                        </a>
+                    </div>
+                    <div class="nav__side-menu-item">
+                        <a class="nav__side-menu-link" href="#">
+                            <div class="nav__side-menu-ico">
+                                <img src="/images/more.svg" alt="">
+                            </div>
+                            <span>Додатково</span>
+                        </a>
+                    </div>
+                    <div class="nav__side-menu-item parent">
+                        <a class="nav__side-menu-link" href="#" id="about">
+                            <span>Про компанію</span>
+                        </a>
+                        <div class="nav__side-menu-1" id="about-menu">
+                            <div class="nav__side-menu-1-bar" >
+                                <a class="nav__side-menu-1-bar-link" href="#">
+                                    Про компанію
+                                </a>
+                            </div>
+                            <div class="nav__side-menu-1-list">
+                                <div class="nav__side-menu-1-item">
+                                    <a class="nav__side-menu-1-link" href="#">
+                                        Контакти
+                                    </a>
+                                </div>
+                                <div class="nav__side-menu-1-item">
+                                    <a class="nav__side-menu-1-link" href="#">
+                                        Чому ВікнаПлюс?
+                                    </a>
+                                </div>
+                                <div class="nav__side-menu-1-item">
+                                    <a class="nav__side-menu-1-link" href="#">
+                                        Наші роботи
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav__side-menu-item parent">
+                        <a class="nav__side-menu-link" href="#" >
+                            <span>Франчайзинг</span>
+                        </a>
+                    </div>
+                    <div class="nav__side-menu-item parent">
+                        <a class="nav__side-menu-link" id="where" href="#" >
+                            <span>Де купити</span>
+                        </a>
+                    </div>
+                    <div class="nav__side-menu-item parent">
+                        <a class="nav__side-menu-link" href="#" >
+                            <span>Консультація</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </header>
+    <section class="main-content">
+        <div class="content">
+            <ul>
+                <li class="main-content-item">
+                    <a  href="#">Home</a>
+                </li>
+                <li class="main-content-item">
+                    <a  href="#">Window</a>
+                </li>
+                <li  class="main-content-item">
+                    <a href="#">About</a>
+                </li>
+                <li class="main-content-item">
+                    <a  href="#">News</a>
+                </li>
+                <li class="main-content-item">
+                    <a  href="#">New</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <footer >
+        <p>© 1997-2020 ВікноПлюс. Всі права захищені, копіювання будь-якої інформації заборонено</p>
+    </footer>
+    <div class="popup">
+        
+            <div class="popup__inner">
+                <div class="popup__close">
+                    <div class="popup__close-icon"></div>
+                </div>
+                <div class="popup__content">
+                    <div class="popup__content-title">
+                        Мережа продажів
+                    </div>
+                    <div class="popup__content-form">
+                        <form class="popup__search-form" action="#">
+                            <button class="search-form__btn " type="submit"></button>
+                            <input class="search-form__input" placeholder="Оберіть місто або адресу" type="text">
+                        </form>
+                    </div>
+                    <div class="popup__content-button">
+                        <a class="popup__content-btn" href="#">
+                            <span>Моє місцезнаходження</span>
+                        </a>
+                    </div>
+                    <div class="popup__content-tabs">
+                        <div class="popup__tabs-header">
+                            <div class="popup__tabs-tab">
+                                <a class="popup__tabs-tab-i active js-tab-trigger" data-tab="1" href="#">
+                                    Україна
+                                </a>
+                            </div>
+                            <div class="popup__tabs-tab">
+                                <a class="popup__tabs-tab-i js-tab-trigger" data-tab="2" href="#">
+                                    Інші країни
+                                </a>
+                            </div>
+                        </div>
+                        <div class="popup__tabs-content">
+                            <div class="popup__tabs-item js-tab-content active" data-tab="1">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            City
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            City
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            City
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            City
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            City
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            City
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            City
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            City
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            City
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            City
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            City
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="popup__tabs-item js-tab-content" data-tab="2">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            City 2
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            City 2
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            City 2
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            City 2
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            City 2
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            City 2
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            City 2
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            City 2
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            City 2
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            City 2
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            City 2
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       
+    </div>
+</body>
+</html>
